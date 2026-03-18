@@ -21,31 +21,17 @@ jobs:
         java-version: '17'
         distribution: 'temurin'
         
-    - name: Dar permisos a Gradle
+    - name: Configurar Gradle
+      uses: gradle/actions/setup-gradle@v3
+      
+    - name: Dar permisos a gradlew
       run: chmod +x gradlew
       
-    - name: Caché de dependencias Gradle
-      uses: actions/cache@v4
-      with:
-        path: |
-          ~/.gradle/caches
-          ~/.gradle/wrapper
-        key: ${{ runner.os }}-gradle-${{ hashFiles('**/*.gradle*', '**/gradle-wrapper.properties') }}
-        restore-keys: |
-          ${{ runner.os }}-gradle-
-          
     - name: Construir APK Debug
-      run: ./gradlew assembleDebug --stacktrace
+      run: gradle assembleDebug --stacktrace
       
     - name: Subir APK como artifact
       uses: actions/upload-artifact@v4
       with:
         name: app-debug
         path: app/build/outputs/apk/debug/app-debug.apk
-        
-    - name: Crear Release (solo en tags)
-      if: startsWith(github.ref, 'refs/tags/')
-      uses: softprops/action-gh-release@v1
-      with:
-        files: app/build/outputs/apk/debug/app-debug.apk
-        generate_release_notes: true
