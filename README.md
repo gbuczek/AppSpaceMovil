@@ -1,18 +1,18 @@
-# AppSpace Movil 🧹
+# AppSpace Movil
 
 Aplicación Android de limpieza y organización de archivos con agente IA integrado.
 
-## Características ✨
+## Características 
 
-- **🔍 Escaneo completo**: Analiza todos los archivos del dispositivo
-- **👯 Detección de duplicados**: Encuentra archivos repetidos usando hash MD5
-- **🗑️ Limpieza de caché**: Elimina archivos temporales de forma segura
-- **📊 Informes detallados**: Recibe un informe después de cada tarea
-- **🤖 Agente IA**: Asistente inteligente que recomienda acciones de limpieza
-- **✅ Aprobación del usuario**: Todas las acciones requieren tu confirmación
-- **📁 Organización por categorías**: Fotos, Videos, Documentos, Descargas, etc.
+- ** Escaneo completo**: Analiza todos los archivos del dispositivo
+- ** Detección de duplicados**: Encuentra archivos repetidos usando hash MD5
+- ** Limpieza de caché**: Elimina archivos temporales de forma segura
+- ** Informes detallados**: Recibe un informe después de cada tarea
+- ** Agente IA**: Asistente inteligente que recomienda acciones de limpieza
+- ** Aprobación del usuario**: Todas las acciones requieren tu confirmación
+- ** Organización por categorías**: Fotos, Videos, Documentos, Descargas, etc.
 
-## Tecnologías 🛠️
+## Tecnologías
 
 - **Lenguaje**: Kotlin
 - **UI**: Jetpack Compose + Material Design 3
@@ -21,7 +21,7 @@ Aplicación Android de limpieza y organización de archivos con agente IA integr
 - **Corrutinas**: Para operaciones asíncronas
 - **Navigation Compose**: Navegación entre pantallas
 
-## Estructura del Proyecto 📂
+## Estructura del Proyecto
 
 ```
 app/
@@ -47,7 +47,7 @@ app/
 │   └── AndroidManifest.xml
 ```
 
-## Funcionalidades 🚀
+## Funcionalidades
 
 ### 1. Escaneo de Archivos
 - Escanea fotos, videos, audio, documentos, descargas y caché
@@ -75,7 +75,7 @@ app/
 - Muestra espacio liberado y archivos eliminados
 - Historial de informes anteriores
 
-## Permisos Requeridos 📋
+## Permisos Requeridos
 
 ```xml
 <!-- Almacenamiento -->
@@ -91,7 +91,7 @@ PACKAGE_USAGE_STATS
 INTERNET, POST_NOTIFICATIONS, FOREGROUND_SERVICE
 ```
 
-## Instalación y Build ⚙️
+## Instalación y Build
 
 ### Requisitos
 - Android Studio Hedgehog o superior
@@ -112,7 +112,7 @@ INTERNET, POST_NOTIFICATIONS, FOREGROUND_SERVICE
 ./gradlew installDebug
 ```
 
-## Capturas de Pantalla 📱
+## Capturas de Pantalla
 
 ### Dashboard
 - Gráfico circular de uso de almacenamiento
@@ -126,7 +126,7 @@ INTERNET, POST_NOTIFICATIONS, FOREGROUND_SERVICE
 - Sugerencias de acciones
 - Informes integrados
 
-## Próximas Características 🔮
+## Próximas Características
 
 - [ ] Integración con APIs de IA (ChatGPT, Gemini)
 - [ ] Compresión de archivos
@@ -135,10 +135,6 @@ INTERNET, POST_NOTIFICATIONS, FOREGROUND_SERVICE
 - [ ] Widget de escritorio
 - [ ] Modo de limpieza profunda (root)
 
-## Licencia 📄
-
-Este proyecto está bajo la licencia MIT.
-
 ---
 
-**Desarrollado con ❤️ usando Kotlin y Jetpack Compose**
+**Desarrollado por Buczek Design**
