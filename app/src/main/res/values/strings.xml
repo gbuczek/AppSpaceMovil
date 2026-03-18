@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AppSpace Movil</string>
+    
+    <!-- Navegación -->
+    <string name="nav_dashboard">Dashboard</string>
+    <string name="nav_photos">Fotos</string>
+    <string name="nav_videos">Videos</string>
+    <string name="nav_documents">Documentos</string>
+    <string name="nav_cache">Caché</string>
+    <string name="nav_downloads">Descargas</string>
+    <string name="nav_agent">Agente IA</string>
+    <string name="nav_settings">Ajustes</string>
+    
+    <!-- Dashboard -->
+    <string name="storage_used">Almacenamiento usado</string>
+    <string name="storage_free">Disponible</string>
+    <string name="scan_now">Escanear ahora</string>
+    <string name="clean_all">Limpiar todo</string>
+    
+    <!-- Categorías -->
+    <string name="category_photos">Fotos</string>
+    <string name="category_videos">Videos</string>
+    <string name="category_documents">Documentos</string>
+    <string name="category_audio">Audio</string>
+    <string name="category_cache">Caché</string>
+    <string name="category_downloads">Descargas</string>
+    <string name="category_duplicates">Duplicados</string>
+    
+    <!-- Acciones -->
+    <string name="action_scan">Escanear</string>
+    <string name="action_clean">Limpiar</string>
+    <string name="action_delete">Eliminar</string>
+    <string name="action_select_all">Seleccionar todo</string>
+    <string name="action_approve">Aprobar</string>
+    <string name="action_reject">Rechazar</string>
+    
+    <!-- Agente IA -->
+    <string name="agent_greeting">¡Hola! Soy tu asistente de limpieza. ¿Qué necesitas?</string>
+    <string name="agent_suggesting">Analizando…</string>
+    <string name="agent_cleaning">Limpiando…</string>
+    <string name="agent_done">¡Completado!</string>
+    
+    <!-- Informes -->
+    <string name="report_title">Informe de limpieza</string>
+    <string name="report_space_freed">Espacio liberado</string>
+    <string name="report_files_deleted">Archivos eliminados</string>
+    <string name="report_duplicates_found">Duplicados encontrados</string>
+    <string name="report_cache_cleared">Caché limpiada</string>
+    
+    <!-- Estados -->
+    <string name="state_scanning">Escaneando…</string>
+    <string name="state_cleaning">Limpiando…</string>
+    <string name="state_idle">Listo</string>
+    <string name="state_completed">Completado</string>
+    
+    <!-- Mensajes -->
+    <string name="msg_no_duplicates">No se encontraron archivos duplicados</string>
+    <string name="msg_no_cache">No hay caché que limpiar</string>
+    <string name="msg_clean_success">Limpieza completada con éxito</string>
+    <string name="msg_permission_required">Permiso requerido</string>
+    <string name="msg_confirm_delete">¿Confirmar eliminación?</string>
+</resources>

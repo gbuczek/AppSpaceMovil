@@ -1,0 +1,40 @@
+*.iml
+.gradle
+/local.properties
+/.idea
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# Kotlin
+*.class
+*.jar
+*.war
+*.ear
+*.hprof
+
+# IntelliJ
+*.iml
+.idea/
+*.iws
+
+# Android Studio
+out/
+.gradle/
+build/
+captures/
+*.apk
+*.aab
+
+# Keystore files
+*.jks
+*.keystore
+
+# Google Services (e.g. APIs)
+**/google-services.json
+
+# Firebase
+**/firebase-app.json
